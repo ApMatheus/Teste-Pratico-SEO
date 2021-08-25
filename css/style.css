@@ -1,0 +1,156 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url("../img/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
+    padding-top: 10px;
+    background-color:#8F4801;
+    color: white;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.navbar .navbar-brand >span{
+    color: #F5AE50;
+    font-family: Monaco;
+}
+
+nav.nav-color{
+    padding: 20px 50px;
+    background:rgba(0,0,0,0.6);
+    border: none;
+}
+
+.navbar .nav>li>a, a{
+    color: #F5AE50  !important;
+}
+
+.navbar .nav>li>a:hover{
+    color:cornflowerblue !important;
+}
+
+.navbar-toggler-icon, .navbar-toggler{
+    background-color: #F5AE50 !important;
+}
+
+#title-image{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#title-image h1{
+    font-family: 'Monaco';
+    font-size: 80pt;
+    color: #F5AE50;
+    text-shadow: 2px 2px black;
+}
+
+.content{
+    padding: 30px;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-top: 360px;
+}
+
+.content div>h3{
+    color: #A87027;
+}
+
+.content div>p{
+    color: #42403c;
+    font-size: 12pt;
+}
+
+#content2{
+    padding: 30px;
+    margin-top: 0, 30px, 0, 30px;
+    
+}
+
+#content2 .container div>h3,h1{
+    color: #F5BF38;
+}
+
+#content2 .container>p, div>p{
+    color:#D4F0FF;
+    font-size: 12pt;
+}
+
+#content3{
+    padding: 30px;
+}
+
+form>h3{
+    color: #A87027;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.cards{
+    text-align: center;
+    align-items: center;
+}
+
+.mycard{
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px !important;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgcard{
+    object-fit: cover;
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+.imgcard:hover{
+    opacity: 1;
+}
+
+.mycard>h3{
+    color: #77582f;
+}
+
+.mycard:hover{
+    background-color: rgb(203, 225, 243);
+    opacity: 1;
+}
+
+.mycard>p{
+    color: #3b3b3a;
+}
+
+form>input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    background-color: #F5AE50 !important;
+    color: white !important;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.icones{
+    margin: 5px;
+}
+
+.icones:hover{
+    height: 10%;
+}
+
+ 
